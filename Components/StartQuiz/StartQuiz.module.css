@@ -209,7 +209,7 @@
 
     .optionButton {
         width: 80%;
-        height: 6vh;
+        height: 16vh;
         margin-top: 2vh;
         margin-bottom: 2vh;
         border-radius: 5px;
@@ -225,7 +225,8 @@
         flex-direction: column;
         align-items: center;
         margin-left: -10vw;
-        height: 10vh;
+        height: 8vh;
+        gap: 2vh;
     }
 
     .optionText {
@@ -292,7 +293,7 @@
     }
 
     .timer {
-        margin-top: 0.2vh;
+        margin-top: 0vh;
         font-size: 25px;
     }
 
