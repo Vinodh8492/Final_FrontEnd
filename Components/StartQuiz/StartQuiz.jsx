@@ -196,7 +196,7 @@ function StartQuiz() {
                             )}
                         </div>
                     ) : (
-                        <p>Loading quiz...</p>
+                        <p className={styles.load} >Loading quiz...</p>
                     )}
                 </div>
 
