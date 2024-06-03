@@ -209,7 +209,7 @@
 
     .optionButton {
         width: 80%;
-        height: 16vh;
+        height: 6vh;
         margin-top: 2vh;
         margin-bottom: 2vh;
         border-radius: 5px;
@@ -226,7 +226,6 @@
         align-items: center;
         margin-left: -10vw;
         height: 8vh;
-        gap: 2vh;
     }
 
     .optionText {
@@ -298,11 +297,11 @@
     }
 
     .optionImage {
-        margin-top: -5vh;
+        margin-top: -2vh;
         margin-left: 10vw;
         margin-right: 15vw;
         width: 210px;
-        height: 100px;
+        height: 80px;
         box-sizing: border-box;
         background-size: contain;
         background-position: center;
@@ -313,7 +312,7 @@
         position: fixed;
         margin: 0 auto;
         margin-top: 10vh;
-        margin-left: 13vw;
+        margin-left: 18vw;
         top: 75vh;
         border-radius: 10px;
         border: none;
