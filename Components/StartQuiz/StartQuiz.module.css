@@ -188,10 +188,12 @@
     }
 
     .question {
-        font-size: 18px;
+        font-size: 20px;
         color: black;
         text-align: center;
         margin-top: 5vh;
+        margin-left: 2vw;
+        margin-right: 2vw;
     }
 
     .number {
