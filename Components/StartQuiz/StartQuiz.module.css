@@ -175,14 +175,16 @@
     }
 
     .content {
-        width: 100vw;
-        height: 100vh;
+       
         background: white;
 
     }
 
     .contents {
         margin: 2vh 3vw;
+        margin-left: -8vw;
+        width: 100vw;
+        height: 100vh;
     }
 
     .question {
@@ -195,6 +197,7 @@
     .number {
         margin-top: 1vh;
         font-size: 30px;
+        margin-left: 10vw;
     }
 
     .buttons {
@@ -284,7 +287,7 @@
     }
 
     .win {
-        width: 90%;
+        width: 70%;
         height: auto;
         max-height: 50vh;
     }
@@ -308,7 +311,7 @@
     .nextButton {
         position: fixed;
         margin: 0 auto;
-        margin-top: 5vh;
+        margin-top: 10vh;
         margin-left: 13vw;
         top: 75vh;
         border-radius: 10px;
