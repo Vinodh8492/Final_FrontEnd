@@ -248,7 +248,7 @@
     }
 
     .successmessage {
-        margin-top: -10vh;
+        margin-top: 3vh;
         font-size: 30px;
         margin-left: 20vw;
     }
@@ -292,7 +292,8 @@
     }
 
     .timer {
-        margin-top: 2.5vh;
+        margin-top: -2.5vh;
+        font-size: 25px;
     }
 
     .optionImage {
