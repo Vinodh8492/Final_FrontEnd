@@ -1,6 +1,6 @@
 import React from "react";
 import axios from 'axios'
-const backendUrl = 'http://localhost:3333/user'
+const backendUrl = 'https://final-backend-umvj.onrender.com/user'
 
 export const loginUser = async ({ email, password }) => {
     try {
