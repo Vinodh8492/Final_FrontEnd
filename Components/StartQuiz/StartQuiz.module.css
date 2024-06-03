@@ -249,7 +249,7 @@
     }
 
     .successmessage {
-        margin-top: 20vh;
+        margin-top: 5vh;
         font-size: 30px;
         margin-left: 20vw;
     }
@@ -289,7 +289,7 @@
     .win {
         width: 70%;
         height: auto;
-        max-height: 50vh;
+        max-height: 25vh;
     }
 
     .timer {
