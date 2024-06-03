@@ -36,6 +36,7 @@ function Dashboard() {
 
   const totalQuestions = quizData.reduce((total, quiz) => total + quiz.questions.length, 0);
   const totalQuizAttempts = quizData.reduce((total, quiz) => total + quiz.quizAttempts, 0);
+  const totalQuizImpressions = quizData.reduce((total, quiz) => total + quiz.linkOpenCount, 0);
 
   const handleLogout = () => {
     localStorage.clear();
@@ -73,7 +74,7 @@ function Dashboard() {
 
           <div className={styles.third}>
             <div className={styles.top3}>
-              <p className={styles.quizattempts}>{totalQuizAttempts}</p>
+              <p className={styles.quizattempts}>{totalQuizImpressions}</p>
               <p className={styles.total}>Total</p>
             </div>
             <p className={styles.created3}>Impressions</p>
