@@ -188,7 +188,7 @@
     }
 
     .question {
-        font-size: 30px;
+        font-size: 20px;
         color: black;
         text-align: center;
         margin-top: 5vh;
@@ -225,7 +225,7 @@
         flex-direction: column;
         align-items: center;
         margin-left: -10vw;
-        height: 6vh;
+        height: 10vh;
     }
 
     .optionText {
@@ -292,13 +292,13 @@
     }
 
     .timer {
-        margin-top: -0.5vh;
+        margin-top: 0.2vh;
         font-size: 25px;
     }
 
     .optionImage {
-        margin-top: 0vh;
-        margin-left: 3vw;
+        margin-top: -5vh;
+        margin-left: 10vw;
         margin-right: 15vw;
         width: 210px;
         height: 100px;
